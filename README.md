@@ -15,12 +15,12 @@ We started this with high hopes , we didnt reach the bar we ve set .
 I ll update the wiki page soon .**Feel free to hack it** .
 
 
-![alt tag](https://raw.github.com/dineshswamy/AirDraw/master/Screenshot_2013-11-30-14-48-55.png)
+![alt tag](https://raw.github.com/dineshswamy/AirDraw/master/HackathonPresentation.png)
 
 
 The drawing we did
 ==================
+![alt tag](https://raw.github.com/dineshswamy/AirDraw/master/Screenshot_2013-11-30-14-48-55.png)
 
-![alt tag](https://raw.github.com/dineshswamy/AirDraw/master/HackathonPresentation.png)
 
 
