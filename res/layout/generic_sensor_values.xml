@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sensor_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/smart_watch_2_text_size_medium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/BaseStyle"
+            android:text="@string/label_x" />
+
+        <TextView
+            android:id="@+id/sensor_value_x"
+            style="@style/BaseStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/BaseStyle"
+            android:text="@string/label_y" />
+
+        <TextView
+            android:id="@+id/sensor_value_y"
+            style="@style/BaseStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/BaseStyle"
+            android:text="@string/label_z" />
+
+        <TextView
+            android:id="@+id/sensor_value_z"
+            style="@style/BaseStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/BaseStyle"
+            android:text="@string/label_time" />
+
+        <TextView
+            android:id="@+id/sensor_value_timestamp"
+            style="@style/BaseStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/BaseStyle"
+            android:text="@string/label_accuracy" />
+
+        <TextView
+            android:id="@+id/sensor_value_accuracy"
+            style="@style/BaseStyle" />
+    </LinearLayout>
+
+</LinearLayout>
